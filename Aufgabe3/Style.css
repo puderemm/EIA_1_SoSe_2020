@@ -1,0 +1,161 @@
+body {
+    background-image: url(Images/bg.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation {
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: black;
+    z-index: 1;
+}
+
+a:hover {
+    color: rgb(218, 58, 30);
+    font-weight: 500;
+}
+
+nav {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    margin: 460px;
+    margin-top: -8px;
+    border-radius: 0px 0px 5px 5px;
+    width: 260px;
+    float: right;
+    
+}
+
+#kreis {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -40px;
+
+   
+}
+
+#portfolio {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 580px;
+}
+
+#loremipsum {
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 910px;
+}
+
+.text {
+    
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 913px;
+}
+
+#text2 {
+    margin-top: 315px;
+}
+
+#text3 {
+    margin-top: 345px;
+}
+
+#facebook {
+    position: absolute;
+    margin-top: 395px;
+    margin-left: 912px;
+    
+    
+}
+
+#facebook:hover {
+
+}
+
+#stempel {
+    width: 130px;
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 640px;
+}
+
+#abstand {
+    margin-top: 50px;
+}
+
+h2 {
+    color: rgb(220, 58, 30);
+    font-size: 30px;
+    font-weight: normal;
+    margin-left: 550px;
+}
+
+img {
+  margin-left: 550px;
+}
+
+video {
+    margin-left: 550px;
+}
+
+#kontakt {
+    margin-top: 100px;
+}
+
+input {
+    background-color: rgb(184, 181, 181);
+    border: rgb(184, 181, 181);
+    margin: 2px;
+    padding: 2px 30px 2px 5px;
+   
+    color: white;
+  
+}
+
+textarea {
+    background-color: rgb(184, 181, 181);
+    border: rgb(184, 181, 181);
+    margin: 2px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-right: 100px;
+    color: white;
+  
+}
+
+button {
+    background-color: rgb(184, 181, 181);
+    border: rgb(184, 181, 181);
+    margin: 2px;
+    padding: 3px 7px 3px 7px;
+
+    color: white;
+
+}
+
+button:hover {
+    font-weight: bold;
+}
+
+div {
+    color: rgb(184, 181, 181);
+    font-size: 11px;
+    margin-top: 20px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+    padding-right: 5px;
+}
+
+#Datenschutz {
+    color: rgb(184, 181, 181);
+}
+
+
+.Kontaktformular {
+    margin-left: 550px;
+}
