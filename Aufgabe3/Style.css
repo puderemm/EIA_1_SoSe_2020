@@ -3,108 +3,66 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.navigation {
-    color:white;
+nav {
+    color: white;
     text-decoration: none;
     font-weight: bold;
     background-color: black;
+    margin-left: 1200px;
+    margin-right: 400px;
+    margin-top: -10px;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    border-radius: 0px 0px 5px 5px;
     z-index: 1;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 a:hover {
     color: rgb(218, 58, 30);
-    font-weight: 500;
+    font-weight: normal;
 }
 
-nav {
-    color: white;
-    font-weight: bold;
-    background-color: black;
-    text-align: center;
-    padding: 5px 10px 5px 10px;
-    margin: 460px;
-    margin-top: -8px;
-    border-radius: 0px 0px 5px 5px;
-    width: 260px;
-    float: right;
-    
+#aktiv {
+    color: rgb(218, 58, 30);
+    font-weight: normal;
 }
 
-#kreis {
+#titelbild {
     position: absolute;
-    margin-left: 60px;
-    margin-top: -40px;
-
-   
-}
-
-#portfolio {
-    position: absolute;
-    margin-top: 0px;
-    margin-left: 580px;
-}
-
-#loremipsum {
-    position: absolute;
-    margin-top: 190px;
-    margin-left: 910px;
-}
-
-.text {
-    
-    position: absolute;
-    margin-top: 270px;
-    margin-left: 913px;
-}
-
-#text2 {
-    margin-top: 315px;
-}
-
-#text3 {
-    margin-top: 345px;
+    left: 50%;
+    top: 50%;
+    margin-left: -500px;
+    margin-top: -500px;
 }
 
 #facebook {
+    width: 25px;
     position: absolute;
-    margin-top: 395px;
-    margin-left: 912px;
-    
-    
+    margin-left: 885px;
+    margin-top: 460px;
 }
 
 #facebook:hover {
-
+    width: 30px;
 }
 
-#stempel {
-    width: 130px;
-    position: absolute;
-    margin-top: 310px;
-    margin-left: 640px;
+.firsttitle {
+    margin-top: 800px;
 }
 
-#abstand {
-    margin-top: 50px;
-}
-
-h2 {
-    color: rgb(220, 58, 30);
-    font-size: 30px;
-    font-weight: normal;
+h1 {
+    color: rgb(218, 58, 30);
     margin-left: 550px;
 }
 
-img {
-  margin-left: 550px;
-}
-
-video {
+img, video, .Kontaktformular {
     margin-left: 550px;
-}
-
-#kontakt {
-    margin-top: 100px;
 }
 
 input {
@@ -155,7 +113,7 @@ div {
     color: rgb(184, 181, 181);
 }
 
-
-.Kontaktformular {
+p {
+    color: white;
     margin-left: 550px;
 }

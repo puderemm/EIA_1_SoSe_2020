@@ -1,40 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio</title>
-        <link rel="stylesheet" href="Style.css">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <a class="navigation" href="Portfolio.html">PORTFOLIO</a> |
-                <a class="navigation" href="About.html">ABOUT</a> |
-                <a class="navigation" href="Contact.html">CONTACT</a> 
-            </nav>
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+   
+    <header>
+        <nav>
+            <a href="Portfolio.html">PORTFOLIO</a> |
+            <a href="About.html">ABOUT</a>   |
+            <a id="aktiv" href="Contact.html">CONTACT</a>
+        </nav>
+    </header>
 
     <main>
 
-        <br>
-        
-        <h2 id="kontakt" class="Kontaktformular">KONTAKT</h2>
+        <img id="titelbild" width="1000" src="Images/Titelbild.svg">
 
-            <input class="Kontaktformular" type="text" id="fname" value="Vorname">
-        <br>
-            <input class="Kontaktformular" type="text" id="sname" value="Nachname">
-        <br>
-            <input class="Kontaktformular" type="email" id="mail" value="E-Mail">
-        <br>
-            <textarea class="Kontaktformular">Nachricht</textarea>
+        <img id="facebook" src="Images/icon_facebook.png">
         
-        <div class="Kontaktformular"> Mit Absenden der Nachricht bestätige ich 
+        <br>
+
+        <h1 class="firsttitle" >KONTAKT</h1>
+
+            <input class="Kontaktformular" type="text" value="Vorname">
             <br>
-                den <a id="Datenschutz" href="##">Datenschutz</a> </div>
+                <input class="Kontaktformular" type="text" value="Nachname">
+            <br>
+                <input class="Kontaktformular" type="email" value="E-Mail">
+            <br>
+                <textarea class="Kontaktformular">Nachricht</textarea>
+        
+            <div class="Kontaktformular"> Mit Absenden der Nachricht bestätige ich 
+                <br>
+                    den <a id="Datenschutz" href="##">Datenschutz</a> </div>
     
-        <button class="Kontaktformular" type="button" onclick="alert('Ihre Nachricht wurde erfolgreich versendet')">absenden</button>
+            <button class="Kontaktformular" type="button" onclick="alert('Ihre Nachricht wurde erfolgreich versendet')">absenden</button>
+        
         
     </main>
 
 </body>
+</html>
