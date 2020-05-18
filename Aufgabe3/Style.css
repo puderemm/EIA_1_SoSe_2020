@@ -8,14 +8,13 @@ nav {
     text-decoration: none;
     font-weight: bold;
     background-color: black;
-    margin-left: 1200px;
-    margin-right: 400px;
+    right: 320px;
     margin-top: -10px;
     text-align: center;
     padding: 5px 10px 5px 10px;
     border-radius: 0px 0px 5px 5px;
     z-index: 1;
-    position: relative;
+    position: fixed;
 }
 
 a {
@@ -46,10 +45,11 @@ a:hover {
     position: absolute;
     margin-left: 885px;
     margin-top: 460px;
+    opacity: 0.5;
 }
 
 #facebook:hover {
-    width: 30px;
+    opacity: 1;
 }
 
 .firsttitle {
@@ -114,6 +114,6 @@ div {
 }
 
 p {
-    color: white;
+    color: black;
     margin-left: 550px;
 }
