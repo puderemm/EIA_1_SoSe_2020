@@ -1,0 +1,564 @@
+/* All */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+/* Startseite */
+#body_start {
+    background-color: indigo;
+}
+
+.startseite {
+    background-color: rgb(113, 113, 236);
+    padding: 25px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#start_überschrift {
+    font-size: 80px;
+    position: absolute;
+    margin-top: -250px;
+    margin-left: -150px;
+}
+.startseite:hover {
+    background-color: rgb(158, 158, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#startseite {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -480px;
+}
+
+/* All Station */
+.nav_station {
+    color: white;
+    text-align: center;
+    background-color: rgb(109, 109, 224);
+    padding: 10px;
+    margin-left: 1150px;
+    margin-right: 50px;
+    border-radius: 0px 0px 5px 5px;
+}
+/* Station 1 */
+#station1_body {
+    background-image: url(Images_station1/bg.png);
+}
+
+#wrapperbg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    margin-left: -300px;
+    margin-top: -200px;  
+}
+#muscheln {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 220px;
+    height: 142px;
+    padding: 20px;
+    margin-left: -360px;
+    margin-top: 80px;  
+}
+
+#penguin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 179px;
+    height: 163px;
+    padding: 20px;
+    margin-left: 160px;
+    margin-top: 20px;  
+    
+}
+
+/*
+img [alt=penguin] {
+    margin-top: 100px;
+}
+*/
+
+#willkommen {
+    font-size: 30px;
+}
+
+#div_1 {
+    color: white;
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -110px;
+    margin-left: -220px;
+}
+
+#p_1 {
+    margin-top: 60px;
+}
+
+/* Station 2*/
+#station2_body {
+    background-image: url(Station2/bg.png);
+}
+
+#station2 {
+    background-color: rgb(85, 179, 147);
+}
+
+h1 {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -130px;
+    margin-left: -200px;
+}
+
+.geschlossen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 64px;
+}
+
+#muschel1 {
+    margin-top: -40px;
+    margin-left: -220px;
+}
+
+#muschel2 {
+    margin-top: 60px;
+    margin-left: -220px;
+}
+
+#muschel3 {
+    margin-top: -40px;
+    margin-left: -90px;
+}
+
+#muschel4 {
+    margin-top: 60px;
+    margin-left: -90px;
+}
+
+#muschel5 {
+    margin-top: -40px;
+    margin-left: 50px;
+}
+
+#muschel6 {
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+#muschel7 {
+    margin-top: -40px;
+    margin-left: 190px;
+}
+
+#muschel8 {
+    margin-top: 60px;
+    margin-left: 190px;
+}
+
+.offen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 64px;
+}
+
+#perle1 {
+    margin-top: 60px;
+    margin-left: -220px;
+    opacity: 0;
+}
+
+#perle2 {
+    margin-top: -40px;
+    margin-left: -90px;
+    opacity: 0;
+}
+
+#perle3 {
+    margin-top: 60px;
+    margin-left: 50px;
+    opacity: 0;
+}
+
+#perle4 {
+    margin-top: -40px;
+    margin-left: 190px;
+    opacity: 0;
+}
+#perle1:hover {
+    opacity: 1;
+}
+
+#perle2:hover {
+    opacity: 1;
+}
+
+#perle3:hover {
+    opacity: 1;
+}
+
+#perle4:hover {
+    opacity: 1;
+}
+
+#div_2 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 150px;
+    margin-left: -40px;
+}
+/* Station 3*/
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Station3/fonts/jellyka_delicious_cake-webfont.eot),
+         url(Station3/fonts/jellyka_delicious_cake-webfont.woff2),
+         url(Station3/fonts/jellyka_delicious_cake-webfont.woff),
+         url(Station3/fonts/jellyka_delicious_cake-webfont.ttf);
+}
+
+#station3_body {
+    background-image: url(Station3/Images/bg.png);
+}
+
+#main_3 {
+    color: white;
+    font-family: myFirstFont;
+}
+
+#station3 {
+    background-color: violet;
+}
+
+#h1_3 {
+    font-weight: bold;
+    font-size: 5ex;
+}
+
+#div_3 {
+    position: absolute;
+    width: 460px;
+    top: 50%;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: -220px;
+    font-size: 20px;
+}
+
+/* Station 4*/
+#station4_body {
+    background-image: url(Station4/bg.png);
+}
+
+#station4 {
+    background-color: rgb(20, 187, 103);
+}
+h2 {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -90px;
+    margin-left: -230px;
+    color: white;
+}
+
+#submit {
+    background-color: rgb(20, 187, 103);
+    color: white;
+    margin-top: 20px;
+}
+
+/* Station 5  (is spalten entfernen)  */
+
+#station5_body {
+    background-image: url(Station5/bg.png);
+}
+
+#station5 {
+    background-color: rgb(252, 188, 70);
+}
+
+.div_5 {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin-top: -60px;
+    margin-left: -220px;
+}
+
+#text1 {
+    column-count: 3;
+    column-width: 15ex;
+    column-gap: 30px;
+}
+.spalte1 {
+    margin-top: 0px;
+}
+
+#text2 {
+    margin-top: 80px;
+    column-count: 2;
+    column-width: 230px;
+}
+
+/* Station 6 */
+#station6_body {
+    background-image: url(Station6/Images/bg.png);
+}
+
+#station6 {
+    background-color: rgb(252, 188, 70);
+}
+
+#div_6 {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    width: 330px;
+    top: 50%;
+    left: 50%;
+    margin-top: -30px;
+    margin-left: -220px;
+    z-index: 1;
+}
+
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -155px;
+    margin-left: 45px;
+}
+
+#muschel_1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -180px;
+    opacity: 0.7;
+}
+
+#muschel_2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -130px;
+    margin-left: 190px;
+    opacity: 0.7;
+}
+
+#muschel_3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 100px;
+    margin-left: -10px;
+    opacity: 0.7;
+}
+
+#stern_1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 145px;
+    margin-left: -62px;
+}
+
+#stern_2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 112px;
+    margin-left: -179px;
+    opacity: 0.7;
+}
+
+#stern_3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -55px;
+    margin-left: -49px;
+    opacity: 0.5;
+}
+
+/* Station 7 */
+#station7_body {
+    background-image: url(Station7/bg.png);
+}
+
+#station7 {
+    background-color: rgb(90, 179, 90);
+}
+
+iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 300px;
+    margin-left: -230px;
+    margin-top: -130px;
+}
+
+#bandrole {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 97px;
+    margin-left: 91px;
+}
+
+/* Station 8 */
+#station8_body {
+    background-image: url(Station8/bg.png);
+}
+
+#station8 {
+    background-color: rgb(0, 187, 187);
+}
+
+#div_8 {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    width: 470px;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -230px;
+}
+
+#muschel-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -160px;
+    margin-left: -200px;
+    transform: rotate(50deg);
+    animation-duration: 5s;
+    animation-name: falldown;
+    animation-iteration-count: infinite;
+}
+
+#perle-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -160px;
+    margin-left: -200px;
+    transform: rotate(50deg);
+    opacity: 0;
+    animation-duration: 5s;
+    animation-name: falldown;   
+    animation-iteration-count: infinite; 
+}
+
+#perle-1:hover {
+    opacity: 1;
+}
+
+#muschel-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -160px;
+    margin-left: -10px;
+    transform: rotate(-20deg);
+    animation-duration: 5s;
+    animation-name: falldown; 
+    animation-delay: 0.6s; 
+    animation-iteration-count: infinite;
+}
+
+#perle-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -160px;
+    margin-left: -10px;
+    transform: rotate(-20deg);
+    opacity: 0;
+    animation-duration: 5s;
+    animation-name: falldown;  
+    animation-delay: 0.6s; 
+    animation-iteration-count: infinite;
+}
+
+#perle-2:hover {
+    opacity: 1;
+}
+
+#muschel-3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -160px;
+    margin-left: 150px;
+    transform: rotate(150deg);
+    animation-duration: 5s;
+    animation-name: falldown;  
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+}
+
+#perle-3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -160px;
+    margin-left: 150px;
+    transform: rotate(150deg);
+    opacity: 0;
+    animation-duration: 5s;
+    animation-name: falldown;  
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+}
+
+#perle-3:hover {
+    opacity: 1;
+}
+
+@keyframes falldown {
+    form {
+        margin-top: -160px;
+        width: 300px;
+    }
+    to {
+        margin-top: 135px;
+        width: 100%;
+    }
+}
