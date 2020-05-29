@@ -14,11 +14,12 @@ var Austria08:number=1993;
 var Gesamt:number= Euro18+Africa18+SouthA18+NorthA18+Asia18+Austria18;
 
 
-console.log("Europa");
+console.group("Europa");
 console.log("Die Emission von Europa ist: "+Euro18+" kg CO2");
 console.log("Relativ zur Gesamtemisson der Welt verursacht Europa damit "+(Euro18/Gesamt *100)+"%");
 console.log("Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um "+((Euro18-Euro08) /Euro18 *100)+"% verändert");
 console.log("2018 im Vergleich zu 2008 sind das "+(Euro18-Euro08)+" kg CO2");
+console.groupEnd("Europa");
 
 console.log("Africa");
 console.log("Die Emission von Africa ist: "+Africa18+" kg CO2");
