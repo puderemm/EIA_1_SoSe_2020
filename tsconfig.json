@@ -1,3 +1,13 @@
+
+{
+  "compilerOptions": {
+  "target": "es5",
+  "module": "commonjs",
+  "sourceMap": true
+  }
+  }
+
+/*
 {
     "compilerOptions": {
       /* Basic Options */
@@ -59,3 +69,4 @@
       // "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
     }
   }
+  
