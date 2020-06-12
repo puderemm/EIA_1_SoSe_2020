@@ -1,4 +1,3 @@
-"use strict";
 var Euro18 = 4209.3;
 var Euro08 = 4965.7;
 var Africa18 = 1235.5;
