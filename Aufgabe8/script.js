@@ -26,22 +26,9 @@ window.addEventListener('load', function () {
     document.querySelector("#Sound-laugh2").addEventListener('click', function () { playSample(7); });
     document.querySelector("#Sound-snare").addEventListener('click', function () { playSample(8); });
     //Aufgabe 7.2 //
-    var deletebutton = document.querySelector('#trash');
-    deletebutton.addEventListener('click', function () {
-        Sound = [4, 5, 8];
-    });
     var play;
     var Sound = [4, 5, 8];
     var i = 0;
-    function Beat() {
-        play = setInterval(function () {
-            playSample(Sound[i]);
-            i++;
-            if (i >= Sound.length) {
-                i = 0;
-            }
-        }, 450);
-    }
     var playbutton = document.querySelector('#play');
     playbutton.addEventListener('click', function () {
         if (playbutton.getAttribute('class') == 'fas fa-play') {
@@ -53,8 +40,17 @@ window.addEventListener('load', function () {
             clearInterval(play);
         }
     });
-    var Button = ['#play', '#micro', '#trash'];
-    document.querySelector(Button[1]).addEventListener('click', mic);
+    function Beat() {
+        play = setInterval(function () {
+            playSample(Sound[i]);
+            i++;
+            if (i >= Sound.length) {
+                i = 0;
+            }
+        }, 450);
+    }
+    var micro = document.querySelector('#micro');
+    micro.addEventListener('click', mic);
     function mic() {
         if (record == false) {
             record = true;
@@ -64,7 +60,17 @@ window.addEventListener('load', function () {
         }
     }
     var record = false;
+    var deletebutton = document.querySelector('#trash');
+    deletebutton.addEventListener('click', function () {
+        Sound = [4, 5, 8];
+    });
     /*
+
+       // var Button: string[] = ['#play', '#micro', '#trash'];
+
+    // document.querySelector(Button[1]).addEventListener('click', mic)
+
+
     playbutton.addEventListener('click', function{}{
     
         if (playbutton.getAttribute()) {
