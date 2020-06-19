@@ -34,32 +34,10 @@ window.addEventListener('load', function () {
 
     //Aufgabe 7.2 //
 
-    var deletebutton: HTMLElement = document.querySelector('#trash');
-
-    deletebutton.addEventListener('click', function () {
-        Sound = [4, 5, 8]
-    })
-
     var play: number;
-
-
     var Sound: number[] = [4, 5, 8];
-
     var i: number = 0;
-
-    function Beat() {
-        play = setInterval(function () {
-            playSample(Sound[i]);
-            i++;
-            if (i >= Sound.length) {
-                i = 0;
-            }
-        }, 450);
-
-    }
-
     var playbutton: HTMLElement = document.querySelector('#play');
-
 
     playbutton.addEventListener('click', function () {
 
@@ -72,9 +50,19 @@ window.addEventListener('load', function () {
         }
     })
 
-    var Button: string[] = ['#play', '#micro', '#trash'];
+    function Beat() {
+        play = setInterval(function () {
+            playSample(Sound[i]);
+            i++;
+            if (i >= Sound.length) {
+                i = 0;
+            }
+        }, 450);
 
-    document.querySelector(Button[1]).addEventListener('click', mic)
+    }
+
+    var micro: HTMLElement = document.querySelector('#micro')
+    micro.addEventListener('click', mic)
 
     function mic() {
         if (record == false) {
@@ -82,10 +70,23 @@ window.addEventListener('load', function () {
         } else {
             record = false
         }
-    }
+    } 
 
     var record: boolean = false
+
+    var deletebutton: HTMLElement = document.querySelector('#trash');
+
+    deletebutton.addEventListener('click', function () {
+        Sound = [4, 5, 8]
+    })
+    
     /*
+
+       // var Button: string[] = ['#play', '#micro', '#trash'];
+
+    // document.querySelector(Button[1]).addEventListener('click', mic)
+
+
     playbutton.addEventListener('click', function{}{
     
         if (playbutton.getAttribute()) {
