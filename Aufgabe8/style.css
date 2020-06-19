@@ -50,18 +50,21 @@ img {
     margin-right: auto;
 }
 
-.fas ::before {
-    font-family: icons;
-    content: attr(fas fa-stop);
-    speak: none;
-}
 
 i {
     color: white;
     font-size: 80px;
-    padding-left: 20px;
-    margin-left: 10px;
+    padding-left: 30px;
+    margin-left: 0px;
     margin-top: 15px;
     opacity: 50%;
+}
+
+i:hover {
+    opacity: 100%;
+}
+
+#play {
+    padding-left: 340px;
 }
 
