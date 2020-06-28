@@ -3,15 +3,15 @@ window.addEventListener('load', function () {
 
    
 
-    var liste: string[] = ["BWL", "EIA", "Audiotechnik"];
+    var liste: string[] = [];
 
-    document.querySelector("#items").innerHTML = liste.length + " in total";  
+    
 
     function drawList() {
         document.querySelector("#todo").innerHTML = "";
         for (let index = 0; index < liste.length; index++) {
             console.log(liste[index]);
-            document.querySelector("#todo").innerHTML += "<p>" + "<input type='checkbox'>" + liste[index] + "<i class='fas fa-trash'></i>" +"</p>";
+            document.querySelector("#todo").innerHTML += "<p>" + "<input type='checkbox'>" + liste[index] +  +"</p>";
 
         }
     }
@@ -26,45 +26,36 @@ window.addEventListener('load', function () {
         drawList();
         document.querySelector("#eingabe").value = "";
 
-        var span = document.createElement("SPAN");
-        var mull = document.createElement("i");
-        mull.className = "fas fa-trash"
-        span.className = "close";
-        span.appendChild(mull);
-        list.appendChild(span);
 
+        var myNodelist = document.getElementsByTagName("p");
+        var i;
+        for (i = 0; i < myNodelist.length; i++) {
+          var span = document.createElement("SPAN");
+          var mull = document.createElement("i");
+          mull.className = "fas fa-trash"
+          span.className = "close";
+          span.appendChild(mull);
+          myNodelist[i].appendChild(span);
+        }
+        
+        var close = document.getElementsByClassName("close");
+        var i;
         for (i = 0; i < close.length; i++) {
-            close[i].onclick = function() {
-              var div = this.parentElement;
-              div.style.display = "none";
-            }
+          close[i].onclick = function() {
+            var div = this.parentElement;
+            div.style.display = "none";
           }
+        }
+      
     }
  
+    
 
     drawList ()
 
+    document.querySelector("#items").innerHTML = liste.length + " in total";  
 
 
-    var myNodelist = document.getElementsByTagName("p");
-var i;
-for (i = 0; i < myNodelist.length; i++) {
-  var span = document.createElement("SPAN");
-  var mull = document.createElement("i");
-  mull.className = "fas fa-trash"
-  span.className = "close";
-  span.appendChild(mull);
-  myNodelist[i].appendChild(span);
-}
-
-var close = document.getElementsByClassName("close");
-var i;
-for (i = 0; i < close.length; i++) {
-  close[i].onclick = function() {
-    var div = this.parentElement;
-    div.style.display = "none";
-  }
-}
 
 
 
