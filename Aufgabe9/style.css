@@ -1,0 +1,101 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(215, 215, 215, 1);
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: cadetblue;
+}
+button {
+    position: absolute;
+    background-color: cadetblue;
+    width: 60px;
+    height: 60px;
+    font-size: 50px;
+
+}
+
+#eingabe {
+    position: absolute;
+    width: 528px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 60px;
+    
+}
+
+input {
+    position: absolute;
+    font-size: 30px;
+    width: 528px;
+    height: 60px;
+    border-color: transparent;
+}
+
+.base {
+    width: 592px;
+    height: 60px;
+    background-color: red;
+    margin-top: 30px; 
+    display: flex;
+    justify-content: flex-start;
+}
+
+.check {
+    background-color: blue;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+
+.task {
+    background-color: blueviolet;
+    width: 460px;
+    height: 60px;
+}
+
+#trash {
+    opacity: 0;
+}
+
+#trash:hover {
+    opacity: 1;
+}
+/*
+.task {
+    background-color: red;
+}
+
+/*
+ul li {
+    background-color: white;
+    width: 532px;
+    height: 60px;
+    list-style-type: none;  
+    padding-left: 60px;
+    margin-left: -40px; 
+}
+
+li:hover {
+    background-color: rgb(209, 209, 209);
+    
+}
+*/
+
+ul {
+   
+}
+
+li {
+    background-color: cadetblue;
+    width: 500px;
+    list-style-type: none;
+}
+
+#Test {
+    background-color: crimson;
+    width: 60px;
+    height: 500px;
+}
