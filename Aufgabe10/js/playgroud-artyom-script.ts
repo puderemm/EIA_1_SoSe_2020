@@ -8,6 +8,9 @@ window.addEventListener("load", function(): void {
         smart: true,
         action: function(i: any, wildcard: string): void {
             console.log("Neue Aufgabe wird erstellt: " + wildcard);
+            alert();
+            todoliste.unshift({todoText: wildcard, todosChecked: false});
+            drawListToDOM();
         }
     });
     
