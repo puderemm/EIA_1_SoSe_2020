@@ -4,7 +4,7 @@ window.addEventListener('load', function () {
         document.querySelector("#todo").innerHTML = "";
         for (var index = 0; index < liste.length; index++) {
             console.log(liste[index]);
-            document.querySelector("#todo").innerHTML += "<p>" + "<input type='checkbox'>" + liste[index] + +"</p>";
+            document.querySelector("#todo").innerHTML += "<p>" + "<input type='checkbox'>" + liste[index] + "</p>";
         }
     }
     document.querySelector("#newTodoButton").addEventListener("click", addnewElement);
@@ -36,13 +36,9 @@ window.addEventListener('load', function () {
     document.querySelector("#items").innerHTML = liste.length + " in total";
     /*
    document.getElementById("trash").addEventListener("click", Elementtrash);
-   
-   
-   
    function Elementtrash () {
        console.log("hi");
    }
-   
    function removeToDo(element) {
        element.parentNode.parentNode.removeChild(element.parentNode);
        LIST[element.id].trash = true;
