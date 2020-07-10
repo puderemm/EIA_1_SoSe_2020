@@ -11,7 +11,7 @@ window.addEventListener('load', function () {
         document.querySelector("#todo").innerHTML = "";
         for (let index = 0; index < liste.length; index++) {
             console.log(liste[index]);
-            document.querySelector("#todo").innerHTML += "<p>" + "<input type='checkbox'>" + liste[index] +  +"</p>";
+            document.querySelector("#todo").innerHTML += "<p>" + "<input type='checkbox'>" + liste[index] +"</p>";
 
         }
     }
@@ -67,13 +67,9 @@ window.addEventListener('load', function () {
 
  /*   
 document.getElementById("trash").addEventListener("click", Elementtrash);
-
-
-
 function Elementtrash () {
     console.log("hi");
 }
-
 function removeToDo(element) {
     element.parentNode.parentNode.removeChild(element.parentNode);
     LIST[element.id].trash = true;
